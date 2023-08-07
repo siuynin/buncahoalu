@@ -6454,7 +6454,7 @@ ol ul {
     flex: 0 0 auto;
     width: 50%;
   }
-  .hidden-xs  {
+  .hidden-xs, .rts-about-area .rts-section-gapTop .col-md-12:first-child  {
     display: none;
   }
   .rts-about-area .rts-section-gapTop {
