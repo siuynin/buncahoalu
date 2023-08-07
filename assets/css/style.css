@@ -6455,7 +6455,7 @@ ol ul {
     width: 50%;
   }
   .hidden-xs, .rts-about-area .rts-section-gapTop .col-md-12:first-child  {
-    display: none;
+    display: none !important;
   }
   .rts-about-area .rts-section-gapTop {
     padding-top: 0px;} 
@@ -26379,6 +26379,7 @@ p.desc {
 .rts-gallery-area .gallery-area-inner .gallery-image {
   overflow: hidden;
   transition: all 0.5s;
+  margin-bottom: 20px;
 }
 @media (max-width: 768px) {
   .rts-gallery-area .gallery-area-inner .gallery-image {
