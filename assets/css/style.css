@@ -20250,6 +20250,12 @@ p.desc {
   display: flex;
   align-items: center;
 }
+@media (min-width: 992px) {
+ 
+  .rts-video-area.home-8 video {
+    width: 25%;
+  }
+}
 @media (max-width: 991px) {
   .rts-menu-area4 .menu-area-inner .top .content-top {
     padding: 50px 0;
