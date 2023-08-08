@@ -16911,7 +16911,7 @@ body.sal-disabled [data-sal|=flip] {
 }
 .rts-about-area .about-one-img .thumbnail-1 .line {
   position: absolute;
-  left: -40px;
+  left: 10px;
   top: 10px;
   display: flex;
   align-items: center;
@@ -16920,6 +16920,9 @@ body.sal-disabled [data-sal|=flip] {
 @media only screen and (max-width: 575px) {
   .rts-about-area .about-one-img .thumbnail-1 .line {
     right: -106px;
+  }
+  .rts-about-area .about-one-img {
+
   }
 }
 @media (max-width: 767px) {
@@ -16954,23 +16957,33 @@ body.sal-disabled [data-sal|=flip] {
   .rts-about-area .about-one-img .thumbnail-1 img {
     width: 100%;
   }
+  .rts-about-area .about-one-img {
+    display: flex;
+    align-items: center;
+  }
+  .rts-about-area .about-one-img .thumbnail-2, .rts-about-area .about-one-img .thumbnail-1  {
+    display: block !important;
+    flex-basis: 50%;
+}
+  .rts-about-area .about-one-img .thumbnail-2 {
+    top: 0px !important;
+    right: 0 I !important;
+    position: relative !important;
+  }
 }
 .rts-about-area .about-one-img .thumbnail-2 {
   position: absolute;
-  top: 120px;
-  right: 80px;
+  top: 73px;
+  right: 11px;
   z-index: 2;
+
 }
 @media only screen and (max-width: 479px) {
   .rts-about-area .about-one-img .thumbnail-2 {
     top: 306px;
   }
 }
-@media (max-width: 767px) {
-  .rts-about-area .about-one-img .thumbnail-2 {
-    display: none;
-  }
-}
+ 
 .rts-about-area .about-one-img .thumbnail-2 span {
   position: absolute;
   min-width: max-content;
@@ -16990,11 +17003,7 @@ body.sal-disabled [data-sal|=flip] {
 .rts-about-area .about-one-img .thumbnail-2 img {
   border: 10px solid #fff;
 }
-@media only screen and (max-width: 479px) {
-  .rts-about-area .about-one-img .thumbnail-2 img {
-    width: 60%;
-  }
-}
+ 
 .rts-about-area .banner-one-wrapper {
   text-align: center;
 }
@@ -27538,10 +27547,17 @@ p.desc {
 
 .zalo-fixed {
   position: fixed;
-  bottom: 90px;
+  bottom: 70px;
   left: 0;
   z-index: 999999;
 }
+.zalo-fixed-2 {
+  position: fixed;
+  bottom: 150px;
+  left: 0;
+  z-index: 999999;
+}
+
 .phone-fixed {
   position: fixed;
   bottom: 0;
