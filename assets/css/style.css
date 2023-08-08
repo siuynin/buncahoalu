@@ -27547,23 +27547,29 @@ p.desc {
 
 .zalo-fixed {
   position: fixed;
-  bottom: 80px;
+  bottom: 160px;
   left: 0;
   z-index: 999999;
 }
 .zalo-fixed-2 {
   position: fixed;
-  bottom: 160px;
+  bottom: 248px;;
   left: 0;
   z-index: 999999;
 }
-
-.phone-fixed {
+.phone-fixed-2 {
   position: fixed;
   bottom: 0;
   left: 0;
   z-index: 999999;
 }
+.phone-fixed {
+  position: fixed;
+  bottom: 80px;
+  left: 0;
+  z-index: 999999;
+}
+
 .hotline-phone-ring {
   position: relative;
   visibility: visible;
